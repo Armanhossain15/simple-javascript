@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light On Off</title>
+    <style>
+        button{
+            padding: 10px 30px;
+            border-radius: 0;
+            border: none;
+            background-color: rgb(53, 53, 216);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- img src change -->
+    <button onclick="document.getElementById('light') .src='./on light.jpg' ">On Light</button>
+    <button onclick="document.getElementById('light').style.width='30px'">make Small</button>
+    <img src="off light.jpg" id="light" width="200px">
+    <button onclick="document.getElementById('light').style.width='200px'">make large</button>
+    <button onclick="document.getElementById('light').src='./off light.jpg'">Off Light</button>
+
+    <!-- innerhtml change -->
+    <br>
+    <br><br><br>
+    <button onclick="document.getElementById('name').style.color='red'">change font size</button>
+    <button onclick="document.getElementById('name') .innerHTML='Hello Arman'">Click For Again Change</button>
+    <h1 id="name" style="font-size: 50px;">Hello Arman</h1>
+    <button onclick="document.getElementById('name') .innerHTML='Azad, How Are You.'">Click For Change</button>
+    <button onclick="document.getElementById('name') .innerHTML='Hello Arman'">Click For Again Change</button>
+
+</body>
+</html>
