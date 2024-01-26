@@ -85,10 +85,37 @@
 
 // if-else statement
 
-var biriyaniPrice = 190;
-if(biriyaniPrice < 300){
-    console.log('I will eat Biriyani');
+// var biriyaniPrice = 190;
+// if(biriyaniPrice < 300){
+//     console.log('I will eat Biriyani');
+// }
+// else{
+//     console.log('i will eat tea and got to home ')
+// }
+
+
+
+// multiple statement
+
+// var salary = '90000';
+// var isBCS = false;
+// var hasCar = true
+
+// if ((salary>40000 || isBCS == true) || hasCar == true){
+//     console.log('we are raji');
+// }
+// else{
+//     console.log('na re ba');
+// }
+
+
+
+var price = 30000;
+var wight = 1.3;
+var goodLook = false;
+if (price <35000 || wight <1.5 || goodLook == true){
+    console.log('buy it');
 }
 else{
-    console.log('i will eat tea and got to home ')
+    console.log('do not buy')
 }
