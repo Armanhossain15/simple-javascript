@@ -69,10 +69,26 @@
 
 ///////// practice 4
 
-var a = isNaN('3232323');
-console.log( a);
+// var a = isNaN('3232323');
+// console.log( a);
 
 
-var b = isNaN ('2-1');
-console.log(typeof b);
+// var b = isNaN ('2-1');
+// console.log(typeof b);
 
+// console.log(5=="5");
+// console.log(5 === "5");
+// console.log(5 === 66);
+
+// console.log(5 != '6');
+// console.log(5 !== '5');
+
+// if-else statement
+
+var biriyaniPrice = 190;
+if(biriyaniPrice < 300){
+    console.log('I will eat Biriyani');
+}
+else{
+    console.log('i will eat tea and got to home ')
+}
